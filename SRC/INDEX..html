@@ -9,15 +9,17 @@
 <body>
     <div class="weather-app">
     <header>
-        <form class="search-form">
-            <input type="search" placeholder="enter city.." required class="search-form-input">
+        <form class="search-form" id="search-form">
+            <input type="search" placeholder="enter city.." required 
+            id="search-form-input"
+            class="search-form-input">
             <input type="submit" value="search" class="search-form-button">
         </form>
     </header>
         <main>
             <div class="weather-app-data">
             <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="weather-app-city">Paris</h1>
             <p class="weather-app-details">Tuesday 14:00,scattered clouds
                 <br>
                 humidity <strong>80%</strong> wind <strong>35km/h</strong>
@@ -32,7 +34,7 @@
         </main>
     
    
-</body>
+
 <footer>
     coded by 
    
@@ -41,4 +43,8 @@
  <a href="https://github.com/Tendai2630">open sourced on github</a>
 </footer>
 </div>
+<script src="..//SRC/index.js"></script>
+
+    
+</body>
 </html>
